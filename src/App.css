@@ -17,6 +17,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-align: left;
 }
 
 .App-link {
@@ -30,4 +31,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.inputGroupPrepend {
+  border-radius: 0 15px 15px 0;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration-style: none;
+  cursor: pointer;
 }
